@@ -22,9 +22,9 @@ El proyecto permite segmentar las prendas de vestir que lleva una persona (super
 - Nodejs
 
 ## Contribución
-Se trabajo a partir de un repositorio que segmentaba a una persona las prendas (tanto de vestir como accesorios).
- Autor : https://github.com/hugozanini/segformer-clothes-tfjs
-Mi contribución fue la del reconocimiento del color.
+- Se trabajo a partir de un repositorio que segmentaba a una persona las prendas (tanto de vestir como accesorios).
+- Autor : https://github.com/hugozanini/segformer-clothes-tfjs
+- Mi contribución fue la del reconocimiento del color.
 
 ## Instalación
 
@@ -38,7 +38,7 @@ Sigue estos pasos para iniciar el proyecto en tu máquina local:
    ```bash
    cd IAProyecto/segformer-clothes-tfjs
 
-3. **Instalar dependencias:**
+3. **Instalar dependencias Nodejs:**
    ```bash
    npm install
    
@@ -49,8 +49,12 @@ Sigue estos pasos para iniciar el proyecto en tu máquina local:
 5. **Acceder a las apis:**
    ```bash
    cd IAProyecto/api
-   
-6. **Iniciar la api que se quiera:**
+
+6. **Instalar dependencias python:**
+   ```bash
+   pip install Flask Flask-CORS numpy opencv-python tensorflow joblib
+
+7. **Iniciar la api que se quiera:**
    ```bash
    py apiCNN.py
    py apiSVM.py
